@@ -1,0 +1,72 @@
+@media (min-width: 700px) {
+  /* HEADER */
+
+  p {
+    font-size: 1em;
+  }
+
+  header .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav a {
+    width: 20%;
+    text-align: center;
+  }
+
+  /* HEADER */
+
+  /* MAIN */
+
+  .curso-cilios {
+    max-width: 1280px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content {
+    flex: 1;
+    padding-right: 40px;
+  }
+  .image img {
+    width: 40vw;
+  }
+
+  .curso-pele {
+    max-width: 1280px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .curso-pele .content {
+    flex: 1;
+    padding-left: 40px;
+  }
+
+  /* MAIN */
+
+  /* FOOTER */
+
+  footer section {
+    background-image: url("../../images/lucianaJales-espaco.jpg");
+  }
+
+  footer section .content {
+    max-width: 1280px;
+    flex: unset;
+    text-align: center;
+    padding: unset;
+  }
+
+  /* FOOTER */
+}
